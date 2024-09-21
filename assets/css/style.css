@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 1;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    align-content: center;
+    font-size:x-large;
+    background-color: black;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li a{
+    /*display: inline-block;* /
+    display: flex;*/
+    margin-right: 10px;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;    
+}
+
+section {
+    margin-bottom: 20px;
+}
+/*-----------------------------------------------------------------------------*/
+h1 {
+    background-color: black;
+    color: lime; /* Color verde claro similar al de la terminal */
+    font-family: monospace; /* Fuentes como Courier New o Consolas son comunes en terminales */
+    text-align: left;
+    line-height:0.5
+}
+h2 {
+    background-color:Gray;
+    background-color: black;
+    color: whitesmoke; /* Color verde claro similar al de la terminal */
+    text-align: left;
+}
+h3, table, li {
+    background-color: black;
+    color: gray; /* Color verde claro similar al de la terminal */
+    font-family: monospace; /* Fuentes como Courier New o Consolas son comunes en terminales */
+    text-align: left;
+    line-height:1.8
+}
+h5{
+    background-color: black;
+    color: rgb(225, 255, 0); /* Color verde claro similar al de la terminal */
+    font-family: monospace; /* Fuentes como Courier New o Consolas son comunes en terminales */
+    text-align: center;
+    line-height:1.5
+}
+#terminal {
+    border: 2px solid #333; /* Borde gris claro para simular el marco */
+    padding: 20px;
+    /*overflow-y: scroll; /* Permite desplazar el contenido si es demasiado largo */
+}
