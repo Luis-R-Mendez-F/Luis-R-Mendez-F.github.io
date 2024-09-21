@@ -64,3 +64,32 @@ h5{
     padding: 20px;
     /*overflow-y: scroll; /* Permite desplazar el contenido si es demasiado largo */
 }
+
+.footer {
+    background-color: black;
+    color: white;
+
+    padding: 20px;
+    text-align: center;
+    line-height:0.2
+}
+
+.footer-content,
+.footer-social {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #871313;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #215621;
+    padding-top: 10px;
+}
